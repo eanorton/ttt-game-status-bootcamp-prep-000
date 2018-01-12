@@ -17,6 +17,4 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   if WIN_COMBINATIONS.each do |win|
-    WIN_COMBINATIONS[0,1,2,3,4,5,6,7].all?
-  else FALSE
-end
+    WIN_COMBINATIONS[0,1,2,3,4,5,6,7].all? 
