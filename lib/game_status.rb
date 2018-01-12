@@ -16,4 +16,7 @@ WIN_COMBINATIONS = [
   ]
 
 def won?(board)
-  WIN_COMBINATIONS.each do 
+  if WIN_COMBINATIONS[0,1,2,3,4,5,6,7]
+    return false
+  end
+end
